@@ -1,8 +1,15 @@
 """Module providing a function printing python version."""
 
-x = input("x:")
+name = "       Omi "
 
+if not name.strip():
+    print("No Name Populated")
+else:
+    print(name)
 
-print(int(x))
-print(float(x))
-print(bool(x))
+age = 67
+
+if 18 <= age < 65:
+    print("You are eligble")
+else:
+    print("You are not eligible")
