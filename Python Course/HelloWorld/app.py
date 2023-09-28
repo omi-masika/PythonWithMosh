@@ -1,9 +1,8 @@
 """Module providing a function printing python version."""
 
-guess = 0
-answer = 5
 
-while answer != guess:
-    guess = int(input("Guess: "))
-else:
-    print("Correct!")
+def increment(number, by):
+    return (number, number + by)
+
+
+print(increment(2, 3))
